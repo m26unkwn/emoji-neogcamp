@@ -9,7 +9,7 @@ import {
 
 const Contact = () => {
   return (
-    <div class='contact-profile'>
+    <div className='contact-profile'>
       <a
         href='https://www.linkedin.com/in/monu-shukla/'
         target='_blank'

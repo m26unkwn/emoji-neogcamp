@@ -25,10 +25,12 @@ function App() {
     let emojiMeaning = data[userInput];
 
     if (!emojiMeaning) {
-      return "failed to find any data";
+      setEmoji(userInput);
+      setEmojiMean("failed to find any data");
+    } else {
+      setEmoji(userInput);
+      setEmojiMean(emojiMeaning);
     }
-    setEmoji(userInput);
-    setEmojiMean(emojiMeaning);
   };
 
   return (
